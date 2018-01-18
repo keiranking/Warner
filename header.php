@@ -12,8 +12,6 @@
   </head>
 
   <body>
-    <!-- Set favicon for site -->
-    <link rel="shortcut icon" href="<?php echo get_site_url(); ?>/images/favicon.ico" type="image/x-icon" />
 
     <div class="blog-masthead">
         <nav class="blog-nav sticky-top">
