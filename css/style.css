@@ -301,6 +301,18 @@ p {
   color: var(--mid);
 }
 
+.project .tags {
+  margin: 5px 0 -5px 0;
+  padding: 0;
+  color: var(--light);
+  font-weight: 400;
+  font-size: 10pt;
+}
+
+.project .tags a {
+  color: var(--light);
+}
+
 .project .title {
   font-family: 'Roboto', serif;
   line-height: 1.05;
