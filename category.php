@@ -4,6 +4,14 @@
         <div class="blog-main col-xl-6 col-lg-7 col-md-9 category-page">
           <h1 class="category-title"><?php echo single_cat_title(); ?></h1>
           <?php
+            $p = get_page_by_title('blurb-'.strtolower(single_cat_title("", false)));
+            if ($p) {
+              $blurb = apply_filters('the_content', $p->post_content);
+              echo '<div class="category-blurb">'.$blurb.'</div>';
+            }
+            ?>
+
+          <?php
           if (have_posts()):
             while (have_posts()):
               the_post();

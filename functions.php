@@ -23,7 +23,7 @@ add_action('wp_print_styles', 'kk_google_fonts');
 
 // WordPress Titles
 add_theme_support( 'title-tag' );
-// Support Featured Images
+// Featured Images
 add_theme_support( 'post-thumbnails' );
 
 // Add featured image sizes
