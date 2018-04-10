@@ -31,6 +31,7 @@
             <a class="dropdown-item" href="<?php echo get_site_url(); ?>/blacke"><span class="dropdown-sub-item">Mr & Mrs Blacke</span></a>
             <a class="dropdown-item" href="<?php echo get_site_url(); ?>/taboo"><span class="dropdown-sub-item">Taboo</span></a>
           </div>
+          <a class="blog-nav-item" href="mailto:me@keiranking.com">Contact</a>
         </nav>
     </div>
 
